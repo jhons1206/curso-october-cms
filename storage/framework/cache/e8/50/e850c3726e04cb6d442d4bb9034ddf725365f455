@@ -1,0 +1,73 @@
+1644734400a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1252:"description = "Información del header"
+==
+<div class="container">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="{{ '/'|app }}">
+          <img src="{{ 'assets/images/logo-repositorio-peb.png'|theme }}" width="112" height="28">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="{{ 'acerca'|page }}" class="navbar-item">
+            Acerca
+          </a>
+    
+          <a href="{{ 'contacto'|page }}" class="navbar-item">
+            Contacto
+          </a>
+        </div>
+      </div>
+    </nav>
+</div>
+
+<section class="hero notification is-primary">
+  <div class="hero-body p-4">
+      <div class="container">
+          <h1 class="title">Maditek Labs</h1>
+          <p class="subtitle">Diseño y desarrollo web responsive</p>
+      </div>
+  </div>
+</section>";s:5:"mtime";i:1644732373;s:6:"markup";s:1207:"<div class="container">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="{{ '/'|app }}">
+          <img src="{{ 'assets/images/logo-repositorio-peb.png'|theme }}" width="112" height="28">
+        </a>
+    
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="{{ 'acerca'|page }}" class="navbar-item">
+            Acerca
+          </a>
+    
+          <a href="{{ 'contacto'|page }}" class="navbar-item">
+            Contacto
+          </a>
+        </div>
+      </div>
+    </nav>
+</div>
+
+<section class="hero notification is-primary">
+  <div class="hero-body p-4">
+      <div class="container">
+          <h1 class="title">Maditek Labs</h1>
+          <p class="subtitle">Diseño y desarrollo web responsive</p>
+      </div>
+  </div>
+</section>";s:4:"code";N;s:11:"description";s:23:"Información del header";}}
