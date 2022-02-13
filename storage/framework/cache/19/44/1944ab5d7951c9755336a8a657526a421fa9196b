@@ -1,0 +1,47 @@
+1644688654a:1:{s:10:"layout.htm";a:6:{s:8:"fileName";s:10:"layout.htm";s:7:"content";s:645:"description = "Esqueleto de la web"
+==
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ this.page.title }}</title>
+  <meta "description" content="{{ this.page.meta_description}}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  
+  {% styles %}
+</head>
+<body>
+
+    {% partial 'header' %}
+    
+    {% page %}
+    
+    {% partial 'footer' %}
+    
+    {% scripts %}
+</body>
+</html>";s:5:"mtime";i:1644681923;s:6:"markup";s:604:"<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ this.page.title }}</title>
+  <meta "description" content="{{ this.page.meta_description}}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+  
+  {% styles %}
+</head>
+<body>
+
+    {% partial 'header' %}
+    
+    {% page %}
+    
+    {% partial 'footer' %}
+    
+    {% scripts %}
+</body>
+</html>";s:4:"code";N;s:11:"description";s:19:"Esqueleto de la web";}}

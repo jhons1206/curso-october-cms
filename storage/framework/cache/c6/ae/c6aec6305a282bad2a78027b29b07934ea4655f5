@@ -1,0 +1,26 @@
+1644688654a:1:{s:10:"acerca.htm";a:11:{s:8:"fileName";s:10:"acerca.htm";s:7:"content";s:740:"title = "Acerca de nosotros"
+url = "/acerca"
+layout = "layout"
+description = "Página con información acerca de nosotros"
+meta_description = "Somos un equipo creativo y multidisciplinario enfocados en el desarrollo web."
+is_hidden = 0
+==
+<?php
+function onStart() {
+    $this->addCss('assets/css/about.css');
+}
+?>
+==
+<div class="container">
+  <section class="about">
+    <h1 class="title">Nosotros</h1>
+    <p>Somos especialistas en el diseño y desarrollo de sitios web, e-commerce, intranets, marketing digital, diseño gráfico y mantenimiento web. Cualquiera sea tu necesidad en la era digital, Maditek Labs es la solución que estás buscando para una presencia en Internet exitosa y rentable.</p>
+  </section>
+</div>";s:5:"mtime";i:1644682015;s:6:"markup";s:410:"<div class="container">
+  <section class="about">
+    <h1 class="title">Nosotros</h1>
+    <p>Somos especialistas en el diseño y desarrollo de sitios web, e-commerce, intranets, marketing digital, diseño gráfico y mantenimiento web. Cualquiera sea tu necesidad en la era digital, Maditek Labs es la solución que estás buscando para una presencia en Internet exitosa y rentable.</p>
+  </section>
+</div>";s:4:"code";s:67:"function onStart() {
+    $this->addCss('assets/css/about.css');
+}";s:5:"title";s:18:"Acerca de nosotros";s:3:"url";s:7:"/acerca";s:6:"layout";s:6:"layout";s:11:"description";s:43:"Página con información acerca de nosotros";s:16:"meta_description";s:77:"Somos un equipo creativo y multidisciplinario enfocados en el desarrollo web.";s:9:"is_hidden";s:1:"0";}}

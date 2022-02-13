@@ -1,0 +1,19 @@
+title = "Maditek Labs"
+url = "/"
+layout = "layout"
+description = "Agencia de diseño y desarrollo web."
+meta_description = "Diseño de páginas web responsive y aplicativos web en Trujillo - Perú."
+is_hidden = 0
+==
+<?php
+function onStart() {
+    $this['welcome'] = 'Bienvenido a Maditek Labs!';
+}
+?>
+==
+{% set subtitle = 'Tu proyecto nuestra meta.' %}
+
+<div class="container">
+    <h1 class="title">{{ welcome }}</h1>
+    <h2 class="subtitle">{{ subtitle}}</h2>
+</div>

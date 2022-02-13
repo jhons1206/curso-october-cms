@@ -1,0 +1,93 @@
+title = "Templating"
+url = "/templating"
+layout = "layout"
+description = "Ejemplo de manipulación de contenido a visualizar."
+is_hidden = 0
+==
+<?php
+function onStart() {
+    //echo date('H');
+    $this['isEarly'] = date('H') >= 9 && date('H') <= 12;
+    
+    $this['fruits'] = ['banana', 'apple', 'orange', 'mango'];
+    
+    $this['users'] = ['jhon', 'jeremy', 'nicol', 'romy', 'fabi', 'andy', 'abigail'];            
+}
+?>
+==
+{{ dump() }}
+
+<div class="container">
+  <section class="about">
+    <h1 class="title">Templating</h1>
+    <p>Ejemplo de manipulación de contenido a visualizar.</p>
+  </section>
+</div>
+
+<section class="section">
+    <div class="container content">
+        <h3>Ejemplo de condiciones</h3>
+        <p>
+            {% if isEarly %}
+                Estamos en la mañana
+            {% else %}
+                Estamos en la tarde
+            {% endif %}
+        </p>
+        
+        <h3>Ejemplo de condiciones (abreviado)</h3>
+        <p>
+            {{ isEarly ? "Estamos en la mañana" : "Estamos en la tarde" }}
+        </p>
+        
+        <h3>Concatenación</h3>
+        <p>
+            {{ 'Estamos en la ' ~ (isEarly ? 'mañana' : 'tarde') }}
+        </p>
+        
+        <h3>Iteraciones</h3>
+        
+        <ul>
+            {% for item in fruits %}
+                <li>{{ item }}</li>
+            {% else %}
+                <li><em>No se han encontrado frutas</em></li>
+            {% endfor %}
+        </ul>
+        
+        <ul>
+            {% for user in users %}
+                <li>{{ user }}</li>
+            {% endfor %}
+        </ul>
+        
+        <ul>
+            {% for i in 0..10 %}
+                <li>{{ i }}</li>
+            {% endfor %}
+        </ul>
+        
+        <ul>
+            {% for letter in 'a'..'z' %}
+                <li>{{ letter }}</li>
+            {% endfor %}
+        </ul>
+        
+        <ul>
+            {% for letter in 'a'|upper..'z'|upper %}
+                <li>{{ letter }}</li>
+            {% endfor %}
+        </ul>
+        
+        <h3>Funciones > str</h3>
+        <h4>Camel case</h4>
+        <p>{{ str_camel('hola mundo') }}</p>
+        
+        <h4>Camel case</h4>
+        <p>{{ str_snake('hola mundo', '-') }}</p>
+        
+        <h4>Funciones > HTML</h4>
+        <p>{{ html_limit('Hola mundo en español', 4) }}</p>
+        
+    </div>
+</section>
