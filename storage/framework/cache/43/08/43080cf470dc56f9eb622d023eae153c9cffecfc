@@ -1,4 +1,4 @@
-1644688848a:1:{s:14:"templating.htm";a:10:{s:8:"fileName";s:14:"templating.htm";s:7:"content";s:2425:"title = "Templating"
+1645448073a:1:{s:14:"templating.htm";a:10:{s:8:"fileName";s:14:"templating.htm";s:7:"content";s:2425:"title = "Templating"
 url = "/templating"
 layout = "layout"
 description = "Ejemplo de manipulación de contenido a visualizar."
@@ -83,14 +83,14 @@ function onStart() {
         <h4>Camel case</h4>
         <p>{{ str_camel('hola mundo') }}</p>
         
-        <h4>Camel case</h4>
+        <h4>Snake case</h4>
         <p>{{ str_snake('hola mundo', '-') }}</p>
         
         <h4>Funciones > HTML</h4>
         <p>{{ html_limit('Hola mundo en español', 4) }}</p>
         
     </div>
-</section>";s:5:"mtime";i:1644688246;s:6:"markup";s:1980:"{{ dump() }}
+</section>";s:5:"mtime";i:1644734362;s:6:"markup";s:1980:"{{ dump() }}
 
 <div class="container">
   <section class="about">
@@ -158,7 +158,7 @@ function onStart() {
         <h4>Camel case</h4>
         <p>{{ str_camel('hola mundo') }}</p>
         
-        <h4>Camel case</h4>
+        <h4>Snake case</h4>
         <p>{{ str_snake('hola mundo', '-') }}</p>
         
         <h4>Funciones > HTML</h4>

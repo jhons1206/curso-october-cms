@@ -1,5 +1,5 @@
 <?php 
-class Cms6207dd4018b6b179963463_9d46b0c0c0a40ea5e007ded4f980178eClass extends Cms\Classes\PageCode
+class Cms6213893166187074923848_00a423ddcd02e6813ee9490f411ec678Class extends Cms\Classes\PageCode
 {
 public function onStart() {
     $this['welcome'] = 'Bienvenido a Maditek Labs!';
